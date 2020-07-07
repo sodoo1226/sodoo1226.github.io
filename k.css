@@ -1,0 +1,17 @@
+@keyframes pulse{
+    from {
+        opacity:0.0;
+        font-size: 100px;
+    }
+    to{
+        opacity: 1.0;
+        font-size: 200px;
+    }
+}
+div {
+    animation-name: pulse;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-direction: alternate;
+}
